@@ -1,0 +1,75 @@
+body{
+ background-color:hsl(30, 38%, 92%) ;
+}
+.contanier{
+  width: 100%; 
+ height: 100%; 
+ /* margin: 170px 0px 0px 530px; */
+ /* padding: 100px; */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ /* border-radius: 30px; */
+}
+.image{
+ border-top-left-radius: 5px;
+ border-bottom-left-radius: 5px;
+ width: 250px;
+ height: 400px;
+}
+.second{
+ width: 250px;
+ height: 400px;
+ background-color: hsl(0, 0%, 100%);
+ border: 1px;
+ border-top-right-radius: 5px;
+ border-bottom-right-radius: 5px;
+}
+#margin{
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 500, 700;
+ font-size: x-small;
+ margin: 30px 0px 0px 20px;
+ letter-spacing: 10px;
+}
+#yash{
+ font-family: 'Fraunces', serif;
+ margin: 10px 0px 0px 17px;
+ font-weight: 700;
+}
+#hari{
+ font-size: 14px;
+ margin: 14px 0px 0px 10px;
+ color: gray;
+ line-height: 20px;
+}
+#guduru{
+ color: rgb(6, 100, 6);
+ font-size: x-large;
+ margin: 15px 0px 0px 15px;
+}
+#nellore{
+ margin: -21px 0px 0px 130px;
+ font-size: small;
+ text-decoration: line-through;
+}
+ .phone{
+  width: 200px;
+  height: 40px;
+  background-color: rgb(3, 85, 3);
+  margin: 30px 0px 0px 20px;
+  border-radius: 5px;
+ }
+ .cart{
+  margin: 0px 70px 0px 0px;
+ }
+ .add{
+  color: white;
+  margin: -14px 0px 0px 30px;
+ }
+ @media only screen and (max-width:500px){
+  .contanier{
+   flex-direction:column ;
+  }
+  
+ }
